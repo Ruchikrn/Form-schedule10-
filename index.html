@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!--Normalize CSS  -->
+  <link rel="stylesheet" href="css/normalize.css" />
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous" />
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <title>Schedule 10</title>
+</head>
+
+<body>
+  <main>
+    <div class="header_title text-center">
+      <h1>Schedule 10</h1>
+      <h5 class="mt-3">Relating to Sub-rule 4 of Rule 12</h5>
+      <h5 class="mt-3 text-decoration-underline">
+        <strong>Application Format for Securing License</strong>
+      </h5>
+    </div>
+    <div class="form_body">
+      <div class="container">
+        <form action="">
+          <div class="row">
+            <div class="col-md-12 mt-3">
+              <label for="nameofinstitution" class="form-label">Name of the
+                institution</label>
+              <input type="text" class="form-control" id="nameofinstitution"
+                aria-describedby="name_institution" />
+            </div>
+            <div class="col-md-12 mt-3">
+              <label for="" class="form-label">Type of Service :</label>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio"
+                  name="inlineRadioOptions" id="inlineRadio1"
+                  value="general_service" />
+                <label class="form-check-label" for="inlineRadio1">General
+                  Services</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio"
+                  name="inlineRadioOptions" id="inlineRadio2"
+                  value="specialized_service" />
+                <label class="form-check-label" for="inlineRadio2">Specialized
+                  Services</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio"
+                  name="inlineRadioOptions" id="inlineRadio3"
+                  value="super_speciality_service" />
+                <label class="form-check-label" for="inlineRadio3">Super
+                  Speciality Services</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio"
+                  name="inlineRadioOptions" id="inlineRadio4" value="others" />
+                <label class="form-check-label"
+                  for="inlineRadio4">Others</label>
+              </div>
+            </div>
+            <div class="col-md-12 mt-3">
+              <label for="" class="form-label">Address of the institution (for
+                correspondence):</label>
+              <div class="row">
+                <div class="col-md-6 mt-sm-2">
+                  <label class="visually-hidden"
+                    for="province_select">Province</label>
+                  <div class="input-group">
+                    <div class="input-group-text">Province</div>
+                    <select class="form-select" id="province_select">
+                      <option value="province_1">Province 1</option>
+                      <option value="madhesh">Madhesh</option>
+                      <option value="bagmati">Bagmati</option>
+                      <option value="gandaki">Gandaki</option>
+                      <option value="lumbini">Lumbini</option>
+                      <option value="karnali">Karnali</option>
+                      <option value="sudurpashchim">Sudurpashchim</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-6 mt-sm-2">
+                  <label class="visually-hidden"
+                    for="district_select">District</label>
+                  <div class="input-group">
+                    <div class="input-group-text">District</div>
+                    <select class="form-select" id="district_select">
+                      <option selected>Choose...</option>
+                      <option value="1">One</option>
+                      <option value="2">Two</option>
+                      <option value="3">Three</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-12 mt-3">
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio"
+                      name="inlineRadioOptions" id="inlineRadio1"
+                      value="rural_municipality" />
+                    <label class="form-check-label" for="inlineRadio1">Rural
+                      Municipality</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio"
+                      name="inlineRadioOptions" id="inlineRadio2"
+                      value="municipality" />
+                    <label class="form-check-label"
+                      for="inlineRadio2">Municipality</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio"
+                      name="inlineRadioOptions" id="inlineRadio3"
+                      value="Submetropolis" />
+                    <label class="form-check-label"
+                      for="inlineRadio3">Sub-metrepolis</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio"
+                      name="inlineRadioOptions" id="inlineRadio4"
+                      value="metropolis" />
+                    <label class="form-check-label"
+                      for="inlineRadio4">Metropolis</label>
+                  </div>
+                </div>
+                <div class="col-md-4 mt-sm-2">
+                  <label class="visually-hidden" for="ward_no">Ward no:</label>
+                  <div class="input-group">
+                    <div class="input-group-text">Ward no:</div>
+                    <input type="text" class="form-control" />
+                  </div>
+                </div>
+                <div class="col-md-4 mt-sm-2">
+                  <label class="visually-hidden" for="tole">Tole</label>
+                  <div class="input-group">
+                    <div class="input-group-text">Tole</div>
+                    <input type="text" class="form-control" />
+                  </div>
+                </div>
+                <div class="col-md-4 mt-sm-2">
+                  <label class="visually-hidden"
+                    for="district_select">Tole</label>
+                  <div class="input-group">
+                    <div class="input-group-text">Telephone</div>
+                    <input type="text" class="form-control" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 mt-3">
+              <label class="form-label" for="">
+                Promoters of the institution (only those who hold 5% or more
+                shares):
+                <table class="table table-hover table-bordered">
+                  <thead>
+                    <tr>
+                      <th>S.N.</th>
+                      <th>Name</th>
+                      <th>Permanent Address</th>
+                      <th>Phone Number</th>
+                      <th>Mobile Number</th>
+                      <th>Email</th>
+                      <th>Citizenship Number</th>
+                      <!-- <th>Actions</th> -->
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><input type="text"></td>
+                      <td><input type="text"></td>
+                      <td><input type="text"></td>
+                      <td><input type="text"></td>
+                      <td><input type="text"></td>
+                      <td><input type="text"></td>
+                      <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                      <td><input type="text"></td>
+                      <td><input type="text"></td>
+                      <td><input type="text"></td>
+                      <td><input type="text"></td>
+                      <td><input type="text"></td>
+                      <td><input type="text"></td>
+                      <td><input type="text"></td>
+                    </tr>
+                    <tr>
+                      <td><input type="text"></td>
+                      <td><input type="text"></td>
+                      <td><input type="text"></td>
+                      <td><input type="text"></td>
+                      <td><input type="text"></td>
+                      <td><input type="text"></td>
+                      <td><input type="text"></td>
+                    </tr>
+                  </tbody>
+                </table>
+            </div>
+            <div class="col-md-12 mt-3">
+              <label class="form-label" for="">
+                Financial sources of the institution:</label>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio"
+                  name="inlineRadioOptions" id="private" value="private" />
+                <label class="form-check-label" for="private">Private</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio"
+                  name="inlineRadioOptions" id="share-loan"
+                  value="share-loan" />
+                <label class="form-check-label"
+                  for="share-loan">Share/Loan</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio"
+                  name="inlineRadioOptions" id="non-governmental"
+                  value="non-governmental" />
+                <label class="form-check-label"
+                  for="non-governmental">Non-governmental</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio"
+                  name="inlineRadioOptions" id="inlineRadio4" value="others" />
+                <label class="form-check-label" for="inlineRadio4">Others
+                  (please specify):</label>
+              </div>
+              <label for="">Name of the lending financial institution, if load
+                is taken:</label>
+              <input type="text" name="loan_taken_institution"
+                class="form-control">
+            </div>
+            <div class="col-md-12 mt-3">
+              <label for="" class="form-label">Financial Investment
+                Cost:</label>
+              <div class="row">
+                <div class="col-md-4 mt-sm-2">
+                  <label class="visually-hidden" for="building_land">For
+                    Buildings and Land</label>
+                  <div class="input-group">
+                    <div class="input-group-text">For Buildings and Land</div>
+                    <input type="text" class="form-control" />
+                  </div>
+                </div>
+                <div class="col-md-4 mt-sm-2">
+                  <label class="visually-hidden"
+                    for="equipment">Equipment</label>
+                  <div class="input-group">
+                    <div class="input-group-text">Equipment</div>
+                    <input type="text" class="form-control" />
+                  </div>
+                </div>
+                <div class="col-md-4 mt-sm-2">
+                  <label class="visually-hidden" for="human_resources">Human
+                    Resources</label>
+                  <div class="input-group">
+                    <div class="input-group-text">Human Resource</div>
+                    <input type="text" class="form-control" />
+                  </div>
+                </div>
+                <div class="row mt-2">
+                  <div class="col-md-2">
+                    <label for="">
+                      <h6>Estimated Income:</h6>
+                    </label>
+                  </div>
+                  <div class="col-md-5">
+                    <label class="visually-hidden"
+                      for="domestic_income">Domestic Income</label>
+                    <div class="input-group">
+                      <div class="input-group-text">Domestic Income</div>
+                      <input type="text" class="form-control" />
+                    </div>
+                  </div>
+                  <div class="col-md-5">
+                    <label class="visually-hidden"
+                      for="international_income">International Income</label>
+                    <div class="input-group">
+                      <div class="input-group-text">International Income</div>
+                      <input type="text" class="form-control" />
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-12 mt-3">
+              <label for="" class="form-label">Source of fixed assets:</label>
+              <input type="text" class="form-control" name="source_of_assests">
+            </div>
+            <div class="col-md-12 mt-3">
+              <label for="" class="form-label">Number of beds:</label>
+              <input type="text" class="form-control" name="num_of_bed">
+            </div>
+            <div class="col-md-12 mt-3">
+              <label for="" class="form-label">Details of services provided by
+                the health institution as per the classification of health
+                institutions:</label>
+              <table class="table table-hover table-bordered">
+                <thead>
+                  <tr>
+                    <th>S.N.</th>
+                    <th>Treatment Services</th>
+                    <th>Diagnostic Services</th>
+                    <th>Preventive Services</th>
+                    <th>Other Services</th>
+                    <!-- <th>Actions</th> -->
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                  </tr>
+                  <tr>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                  </tr>
+                  <tr>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-md-12 mt-3">
+              <label for="" class="form-label">Details and sources of major
+                equipment to be used in the institution:</label>
+              <table class="table table-hover table-bordered">
+                <thead>
+                  <tr>
+                    <th>S.N.</th>
+                    <th>Name of the equipment</th>
+                    <th>Financial Source</th>
+                    <th>Remarks</th>
+                    <!-- <th>Actions</th> -->
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                  </tr>
+                  <tr>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                  </tr>
+                  <tr>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-md-12 mt-3">
+              <label for="" class="form-label">Details of human resources to
+                provide services in the institution:</label>
+              <table class="table table-hover table-bordered">
+                <thead>
+                  <tr>
+                    <th>S.N.</th>
+                    <th>Name of staff</th>
+                    <th>Position</th>
+                    <th>Academic Qualification</th>
+                    <th>Registration no. of concerned council</th>
+                    <th>Employed in govt. service</th>
+                    <th>Full time/ Part time</th>
+                    <!-- <th>Actions</th> -->
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><select class="form-select" id="gov_employed">
+                        <option selected> </option>
+                        <option value="no">Yes</option>
+                        <option value="no">No</option>
+                      </select></td>
+                    <td><select class="form-select" id="gov_employed">
+                        <option selected> </option>
+                        <option value="full_time">Full time</option>
+                        <option value="part_time">Part Time</option>
+                      </select></td>
+                  </tr>
+                  <tr>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><select class="form-select" id="gov_employed">
+                        <option selected> </option>
+                        <option value="no">Yes</option>
+                        <option value="no">No</option>
+                      </select></td>
+                    <td><select class="form-select" id="gov_employed">
+                        <option selected> </option>
+                        <option value="full_time">Full time</option>
+                        <option value="part_time">Part Time</option>
+                      </select></td>
+                  </tr>
+                  <tr>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><select class="form-select" id="gov_employed">
+                        <option selected> </option>
+                        <option value="no">Yes</option>
+                        <option value="no">No</option>
+                      </select></td>
+                    <td><select class="form-select" id="gov_employed">
+                        <option selected> </option>
+                        <option value="full_time">Full time</option>
+                        <option value="part_time">Part Time</option>
+                      </select></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="col-md-12 mt-3 req_files">
+              <label for="" class="form-label">Documents to include in the
+                application:</label>
+              <div class="row">
+                <div class="col-md-6 mt-2 files_upload ">
+                  <label for="">
+                    <h6>Attested copy of company registration or
+                      registration certificate</h6>
+                  </label>
+                  <div class="d-flex align-items-stretch mt-3">
+                    <input type="file" class='form-control'
+                      name="company_reg_certificate" id="">
+                    <!-- <button type="button"
+                      class="btn btn-info btn-sm text-nowrap" onclick=add()>Add
+                      Field</button> -->
+                  </div>
+
+                </div>
+                <div class="col-md-6 mt-2 files_upload">
+                  <label for="">
+                    <h6>Copy of statute/memorandum of
+                      association/articles of association for the institution
+                      or company</h6>
+                  </label>
+                  <div class="d-flex align-items-stretch mt-3">
+                    <input type="file" class='form-control'
+                      name="memorandum[]" id="">
+                    <!-- <button type="button"
+                      class="btn btn-info btn-sm text-nowrap" onclick=add()>Add
+                      Field</button> -->
+                  </div>
+                </div>
+                <div class="col-md-6 mt-2">
+                  <label for="">
+                    <h6>Copy of permanent account number (PAN) certificate</h6>
+                  </label>
+                  <input type="file" name="pan" id="" class='form-control'>
+                </div>
+                <div class="col-md-6 mt-2">
+                  <label for="">
+                    <h6>Recommendation letter from concerned Local or Provincial
+                      Government stating that
+                      the health institution is required in the proposed
+                      location</h6>
+                  </label>
+                  <input type="file" name="recommend_letter" id="" class='form-control'>
+                </div>
+                <div class="col-md-6 mt-2">
+                  <label for="">
+                    <h6>Copies of citizenship certificates of promoters</h6>
+                  </label>
+                  <div class="row m-0">
+                    <div class="col-md-6">
+                      <span for="">Front:</span>
+                      <input type="file" name="citizenship_front" class='form-control'>
+                    </div>
+                    <div class="col-md-6">
+                      <span for="">Back:</span>
+                      <input type="file" name="citizenship_Back" class='form-control'>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mt-2">
+                  <label for="">
+                    <h6>Copy of approval letter with initial environment
+                      examination (IEE) or environment
+                      impact assessment (EIA)</h6>
+                  </label>
+                  <input type="file" name="approval_letter" id="" class='form-control'>
+                </div>
+                <div class="col-md-6 mt-2">
+                  <label for="">
+                    <h6>Proposal with detailed survey for the health institution
+                    </h6>
+                  </label>
+                  <input type="file" name="proposal" id="" class='form-control'>
+                </div>
+                <div class="col-md-6 mt-2">
+                  <label for="">
+                    <h6>Details of fees for services provided by the health
+                      institution</h6>
+                  </label>
+                  <input type="file" name="fees" class='form-control'>
+                </div>
+                <div class="col-md-6 mt-2">
+                  <label for="">
+                    <h6>Approved drawing for buildings</h6>
+                  </label>
+                  <input type="file" name="drawing" id="" class='form-control'>
+                </div>
+                <div class="col-md-6 mt-2">
+                  <label for="">
+                    <h6>Tax clearance certificate (if applicable).</h6>
+                  </label>
+                  <input type="file" name="tax_clearance" id="" class='form-control'>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 mt-5 text-center">
+              <button type="submit"
+                class="btn btn-success submit_button">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    function add() {
+      var new_input = `<div class="d-flex align-items-stretch mt-3">
+                    <input type="file" class='form-control'
+                      name="company_reg_certificate[]" id="">
+                    <button type="button"
+                      class="btn btn-info btn-sm text-nowrap" onclick=add()>Add
+                      Field</button>
+                      <button type="button"
+                      class="btn btn-danger btn-sm text-nowrap" onclick=remove()>X</button>
+                  </div>`;
+      $('.files_upload').append(new_input);
+    }
+
+    function remove() {
+      $('.files_upload').children().last().remove();
+    }
+  </script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

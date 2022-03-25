@@ -1,0 +1,45 @@
+.form-label{
+  font-weight: bold;
+  margin-right: 2rem;
+}
+table{
+  max-width: 100%;
+  width:100%;
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+input[type="text"] {
+     width: 100%; 
+     box-sizing: border-box;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing: border-box;
+     word-wrap: break-word;
+        word-break: break-all;
+}
+table input, table select{
+  border: 0 !important;
+  outline: none;
+  box-shadow: none;
+  width: auto;
+  background: transparent;
+}
+ select:active,select:focus{
+  box-shadow: none !important;
+  outline: 0!important;
+}
+table th:first-child{
+  width: 50px;
+}
+table th:nth-child(2){
+  width: 250px;
+}
+main{
+  padding: 80px 0;
+}
+.submit_button{
+  padding: 10px 10rem;
+  color:#fff;
+}
+.req_files label{
+  height: 40px;
+}
