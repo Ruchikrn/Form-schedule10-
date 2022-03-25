@@ -40,6 +40,13 @@ main{
   padding: 10px 10rem;
   color:#fff;
 }
-.req_files label{
-  height: 40px;
+.req_files h6{
+  min-height: 38px;
+}
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: all !important;
+}
+.cloning div:not(:first-child){
+  margin-top: 5px;
 }

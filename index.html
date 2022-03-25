@@ -170,11 +170,11 @@
                       <th>Mobile Number</th>
                       <th>Email</th>
                       <th>Citizenship Number</th>
-                      <!-- <th>Actions</th> -->
+                      <th>Actions</th>
                     </tr>
                   </thead>
-                  <tbody>
-                    <tr>
+                  <tbody class="cloning">
+                    <tr class="files_upload">
                       <td><input type="text"></td>
                       <td><input type="text"></td>
                       <td><input type="text"></td>
@@ -182,24 +182,12 @@
                       <td><input type="text"></td>
                       <td><input type="text"></td>
                       <td><input type="text"></td>
-                    </tr>
-                    <tr>
-                      <td><input type="text"></td>
-                      <td><input type="text"></td>
-                      <td><input type="text"></td>
-                      <td><input type="text"></td>
-                      <td><input type="text"></td>
-                      <td><input type="text"></td>
-                      <td><input type="text"></td>
-                    </tr>
-                    <tr>
-                      <td><input type="text"></td>
-                      <td><input type="text"></td>
-                      <td><input type="text"></td>
-                      <td><input type="text"></td>
-                      <td><input type="text"></td>
-                      <td><input type="text"></td>
-                      <td><input type="text"></td>
+                      <td class="text-center"><div class="btn-group">
+                      <button type="button"
+                        class="btn btn-info text-nowrap add_btn_frm_field">Add</button>
+                      <button type="button"
+                        class="btn btn-danger text-nowrap remove_btn_frm_field" disabled>x</button>
+                    </div></td>
                     </tr>
                   </tbody>
                 </table>
@@ -232,7 +220,7 @@
                 <label class="form-check-label" for="inlineRadio4">Others
                   (please specify):</label>
               </div>
-              <label for="">Name of the lending financial institution, if load
+              <label for="">Name of the lending financial institution, if loan
                 is taken:</label>
               <input type="text" name="loan_taken_institution"
                 class="form-control">
@@ -311,30 +299,22 @@
                     <th>Diagnostic Services</th>
                     <th>Preventive Services</th>
                     <th>Other Services</th>
-                    <!-- <th>Actions</th> -->
+                    <th>Actions</th>
                   </tr>
                 </thead>
-                <tbody>
-                  <tr>
+                <tbody class="cloning">
+                  <tr class="files_upload">
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
-                  </tr>
-                  <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                  </tr>
-                  <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
+                    <td class="text-center"><div class="btn-group">
+                      <button type="button"
+                        class="btn btn-info text-nowrap add_btn_frm_field">Add</button>
+                      <button type="button"
+                        class="btn btn-danger text-nowrap remove_btn_frm_field" disabled>x</button>
+                    </div></td>
                   </tr>
                 </tbody>
               </table>
@@ -349,27 +329,21 @@
                     <th>Name of the equipment</th>
                     <th>Financial Source</th>
                     <th>Remarks</th>
-                    <!-- <th>Actions</th> -->
+                    <th>Actions</th>
                   </tr>
                 </thead>
-                <tbody>
-                  <tr>
+                <tbody class="cloning">
+                  <tr class="files_upload">
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
-                  </tr>
-                  <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                  </tr>
-                  <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
+                    <td class="text-center"><div class="btn-group">
+                      <button type="button"
+                        class="btn btn-info text-nowrap add_btn_frm_field">Add</button>
+                      <button type="button"
+                        class="btn btn-danger text-nowrap remove_btn_frm_field" disabled>x</button>
+                    </div></td>
                   </tr>
                 </tbody>
               </table>
@@ -387,11 +361,11 @@
                     <th>Registration no. of concerned council</th>
                     <th>Employed in govt. service</th>
                     <th>Full time/ Part time</th>
-                    <!-- <th>Actions</th> -->
+                    <th>Actions</th>
                   </tr>
                 </thead>
-                <tbody>
-                  <tr>
+                <tbody class="cloning">
+                  <tr class="files_upload">
                     <td><input type="text"></td>
                     <td><input type="text"></td>
                     <td><input type="text"></td>
@@ -407,40 +381,12 @@
                         <option value="full_time">Full time</option>
                         <option value="part_time">Part Time</option>
                       </select></td>
-                  </tr>
-                  <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><select class="form-select" id="gov_employed">
-                        <option selected> </option>
-                        <option value="no">Yes</option>
-                        <option value="no">No</option>
-                      </select></td>
-                    <td><select class="form-select" id="gov_employed">
-                        <option selected> </option>
-                        <option value="full_time">Full time</option>
-                        <option value="part_time">Part Time</option>
-                      </select></td>
-                  </tr>
-                  <tr>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><input type="text"></td>
-                    <td><select class="form-select" id="gov_employed">
-                        <option selected> </option>
-                        <option value="no">Yes</option>
-                        <option value="no">No</option>
-                      </select></td>
-                    <td><select class="form-select" id="gov_employed">
-                        <option selected> </option>
-                        <option value="full_time">Full time</option>
-                        <option value="part_time">Part Time</option>
-                      </select></td>
+                      <td class="text-center"><div class="btn-group">
+                      <button type="button"
+                        class="btn btn-info text-nowrap add_btn_frm_field">Add</button>
+                      <button type="button"
+                        class="btn btn-danger text-nowrap remove_btn_frm_field" disabled>x</button>
+                    </div></td>
                   </tr>
                 </tbody>
               </table>
@@ -449,32 +395,36 @@
               <label for="" class="form-label">Documents to include in the
                 application:</label>
               <div class="row">
-                <div class="col-md-6 mt-2 files_upload ">
+                <div class="col-md-6 mt-2 cloning">
                   <label for="">
                     <h6>Attested copy of company registration or
                       registration certificate</h6>
                   </label>
-                  <div class="d-flex align-items-stretch mt-3">
+                  <div class="d-flex align-items-stretch files_upload">
                     <input type="file" class='form-control'
-                      name="company_reg_certificate" id="">
-                    <!-- <button type="button"
-                      class="btn btn-info btn-sm text-nowrap" onclick=add()>Add
-                      Field</button> -->
+                      name="company_reg_certificate[]" id="">
+                    <button type="button"
+                      class="btn btn-info btn-sm text-nowrap add_btn_frm_field">Add
+                      Field</button> 
+                      <button type="button"
+                      class="btn btn-danger btn-sm text-nowrap remove_btn_frm_field" disabled>X</button>
                   </div>
 
                 </div>
-                <div class="col-md-6 mt-2 files_upload">
+                <div class="col-md-6 mt-2 cloning">
                   <label for="">
                     <h6>Copy of statute/memorandum of
                       association/articles of association for the institution
                       or company</h6>
                   </label>
-                  <div class="d-flex align-items-stretch mt-3">
-                    <input type="file" class='form-control'
-                      name="memorandum[]" id="">
-                    <!-- <button type="button"
-                      class="btn btn-info btn-sm text-nowrap" onclick=add()>Add
-                      Field</button> -->
+                  <div class="d-flex align-items-stretch files_upload">
+                    <input type="file" class='form-control' name="memorandum[]"
+                      id="">
+                     <button type="button"
+                      class="btn btn-info btn-sm text-nowrap add_btn_frm_field">Add
+                      Field</button>
+                       <button type="button"
+                      class="btn btn-danger btn-sm text-nowrap remove_btn_frm_field" disabled>X</button>
                   </div>
                 </div>
                 <div class="col-md-6 mt-2">
@@ -490,20 +440,30 @@
                       the health institution is required in the proposed
                       location</h6>
                   </label>
-                  <input type="file" name="recommend_letter" id="" class='form-control'>
+                  <input type="file" name="recommend_letter" id=""
+                    class='form-control'>
                 </div>
-                <div class="col-md-6 mt-2">
+                <div class="col-md-6 mt-2 cloning">
                   <label for="">
                     <h6>Copies of citizenship certificates of promoters</h6>
                   </label>
-                  <div class="row m-0">
+                  <div class="row m-0 files_upload border pb-2">
                     <div class="col-md-6">
                       <span for="">Front:</span>
-                      <input type="file" name="citizenship_front" class='form-control'>
+                      <input type="file" name="citizenship_front"
+                        class='form-control'>
                     </div>
                     <div class="col-md-6">
                       <span for="">Back:</span>
-                      <input type="file" name="citizenship_Back" class='form-control'>
+                      <input type="file" name="citizenship_Back"
+                        class='form-control'>
+                    </div>
+                    <div class="btn-group mt-3" role="" group>
+                      <button type="button"
+                        class="btn btn-info btn-sm text-nowrap add_btn_frm_field">Add
+                        Field</button>
+                      <button type="button"
+                        class="btn btn-danger btn-sm text-nowrap remove_btn_frm_field" disabled>Remove Field</button>
                     </div>
                   </div>
                 </div>
@@ -513,7 +473,8 @@
                       examination (IEE) or environment
                       impact assessment (EIA)</h6>
                   </label>
-                  <input type="file" name="approval_letter" id="" class='form-control'>
+                  <input type="file" name="approval_letter" id=""
+                    class='form-control'>
                 </div>
                 <div class="col-md-6 mt-2">
                   <label for="">
@@ -529,17 +490,26 @@
                   </label>
                   <input type="file" name="fees" class='form-control'>
                 </div>
-                <div class="col-md-6 mt-2">
+                <div class="col-md-6 mt-2 cloning">
                   <label for="">
                     <h6>Approved drawing for buildings</h6>
                   </label>
-                  <input type="file" name="drawing" id="" class='form-control'>
+                  <div class="d-flex align-items-stretch files_upload">
+                    <input type="file" class='form-control'
+                      name="drawings[]" id="">
+                    <button type="button"
+                      class="btn btn-info btn-sm text-nowrap add_btn_frm_field">Add
+                      Field</button> 
+                      <button type="button"
+                      class="btn btn-danger btn-sm text-nowrap remove_btn_frm_field" disabled>X</button>
+                  </div>
                 </div>
                 <div class="col-md-6 mt-2">
                   <label for="">
                     <h6>Tax clearance certificate (if applicable).</h6>
                   </label>
-                  <input type="file" name="tax_clearance" id="" class='form-control'>
+                  <input type="file" name="tax_clearance" id=""
+                    class='form-control'>
                 </div>
               </div>
             </div>
@@ -562,24 +532,6 @@
   <script
     src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="js/main.js"></script>
-  <script>
-    function add() {
-      var new_input = `<div class="d-flex align-items-stretch mt-3">
-                    <input type="file" class='form-control'
-                      name="company_reg_certificate[]" id="">
-                    <button type="button"
-                      class="btn btn-info btn-sm text-nowrap" onclick=add()>Add
-                      Field</button>
-                      <button type="button"
-                      class="btn btn-danger btn-sm text-nowrap" onclick=remove()>X</button>
-                  </div>`;
-      $('.files_upload').append(new_input);
-    }
-
-    function remove() {
-      $('.files_upload').children().last().remove();
-    }
-  </script>
 
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <!--
